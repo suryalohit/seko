@@ -23,6 +23,7 @@ with st.echo():
 
     driver = get_driver()
     driver.get("http://example.com")
+    st.text("okok")
     print("i am ok")
 
     st.code(driver.page_source)
