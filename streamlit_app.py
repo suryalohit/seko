@@ -23,5 +23,6 @@ with st.echo():
 
     driver = get_driver()
     driver.get("http://example.com")
+    print("i am ok")
 
     st.code(driver.page_source)
